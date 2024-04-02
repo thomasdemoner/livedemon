@@ -1,3 +1,8 @@
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* GENERAL */
+
 *,
 body,
 html {
@@ -13,6 +18,12 @@ body {
 	display: flex;
 	position: relative;
 }
+
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* BOUNCING LOGOS */
+
 .logo {
 	position: absolute;
 	display: block;
@@ -21,6 +32,11 @@ body {
 	max-height: 75px;
 	z-index: 1;
 }
+
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* NOTICE OVERLAY */
 
 .notice {
 	position: absolute;
@@ -59,4 +75,31 @@ body {
 	margin-bottom: 1.5rem;
 	font-style: italic;
 	font-weight: 300;
+}
+
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* FOOTER */
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 2;
+	text-align: center;
+}
+
+.footer-content {
+	display: flex;
+	margin: 1rem;
+	max-width: 100%;
+	justify-content: space-between;
+}
+
+.footer-content a {
+	color: inherit;
+}
+
+.footer-item + .footer-item {
+	margin-left: 1em;
 }
